@@ -24,3 +24,4 @@ class games(db.Model):
     Game_image_2 = db.Column(db.String)
     Game_image_3 = db.Column(db.String)
     link = db.Column(db.String)
+

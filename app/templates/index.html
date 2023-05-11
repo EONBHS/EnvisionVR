@@ -11,6 +11,11 @@
 
   </head>
   <body>
+    {% extends "layout.html" %}
+ 
+    {% block body %}
+    {% endblock %}
+    
     <div>
   <nav class="navbar">
     <a href="#"><img src="static/logo.png" alt="Logo"></a>
@@ -27,12 +32,7 @@
 </nav>
 </div>
 <!-- Add banner with text -->
-<div class="banner">
-    <div class="banner-text">
-        <h1>Welcome to PlayBurn</h1>
-        <p>Upload and Explore community projects!</p>
-    </div>
-</div>
+
 
 <!-- Add main content -->
 <div class="content">
@@ -79,7 +79,6 @@
             
 </div>
 
-{{%for game in games%}}
 
 
 
